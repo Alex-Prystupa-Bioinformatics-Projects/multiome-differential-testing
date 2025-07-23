@@ -1,0 +1,10 @@
+# config.yml
+
+input:
+  seu_obj_path: "full-path-to-seu-obj.RDS"
+
+analysis:
+  group_by: "CellTypeColumnHere"
+  condition_column: "ConditionColumnHere"
+  ident_1: "TREATMENT"
+  ident_2: "CONTROL"

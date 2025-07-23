@@ -1,0 +1,29 @@
+---
+title: "testing-de-multiome.Rmd"
+output: html_document
+date: "2025-07-23"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Load Packages
+```{r}
+.libPaths(c(
+  "/hpc/packages/minerva-rocky9/rpackages/4.2.0/site-library",
+  "/hpc/packages/minerva-rocky9/rpackages/bioconductor/3.15",
+  "/hpc/users/prysta01/R/x86_64-pc-linux-gnu-library/4.4",
+  "/hpc/packages/minerva-rocky9/R/4.2.0/lib64/R/library"
+))
+
+library(Seurat)
+library(Signac)
+library(dplyr)
+```
+
+# Load Data
+```{r}
+
+```
+
